@@ -1,0 +1,15 @@
+package com.whymechen.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * Hello world!
+ *
+ */
+@SpringBootApplication(scanBasePackages = "com.whymechen.demo")
+public class Application {
+    public static void main( String[] args ) {
+        SpringApplication.run(Application.class, args);
+    }
+}
